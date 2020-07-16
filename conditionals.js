@@ -9,15 +9,14 @@ Exercise One
 
 Is it larger than 10?
 */
-
-let number = 5;
-
 // 1. Create an if statement where the number is greater than 10.
 // If it is, then log "It is bigger than 10!" using console.log().
-
+if (11 > 10) 
 // 2. Change the number variable to something larger than 10, run your code and
 // make sure it works.
-
+if (11 > 10) {
+    console.log(" It is bigger that 10!");
+}
 /*
 ---------------------------------------------------------------------------
 Exercise Two
@@ -25,17 +24,26 @@ Exercise Two
 Determining a color
 */
 
-let color = "";
 // 1. Pick either "blue", "red", or "green" and assign it to the color variable.
 
+let color = "blue";
+
 // 2. Create an if statement, if the color is "blue", then log "The sky is blue." using console.log
-
+if (color) {
+    console.log(" The sky is blue");
+}
 // 3. Create an else if statement, and if the color is "red" then log "The flower is red."
-
+else if (red) {
+    console.log(" The flower is red ");
+}
 // 4. create another else if statement where if the color is "green" then log "The Leaf is green."
-
+else if (green) {
+    console.log(" The leaf is green ");
+}
 // 5. Finally, create an else statement and log "It is a different color".
-
+else {
+    console.log(" It is a different color");
+}
 // 6. Test your code! Change the value of the color variable to different colors and run your code.
 // The correct message should log to the console.
 
@@ -60,3 +68,15 @@ a chain of if else statements, some of those just might need multible conditions
 
 let number = 5;
 // Your code here.
+if (11 > 10 && 11 < 20) {
+    console.log(" Between 10 and 20!")
+}
+if (20 >= 20){
+    console.log(" Greater than 20 ")
+}
+if (16 === 16){
+    console.log( "16")
+}
+if (8 < 10){
+    console.log("10 or less")
+}
